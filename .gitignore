@@ -1,0 +1,7 @@
+# Build products and local macOS runtime copies
+outputs/AemisTokenPet-Windows/bin/
+outputs/AemisTokenPet-Windows/obj/
+outputs/AemisTokenPet-Windows/dist/
+outputs/CodexTokenPet/CodexTokenPet
+.DS_Store
+

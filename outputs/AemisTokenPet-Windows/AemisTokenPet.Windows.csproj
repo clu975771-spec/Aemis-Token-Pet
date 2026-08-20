@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>AemisTokenPet</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="../CodexTokenPet/艾弥斯透明人物.png" Link="Assets/Aemis.png" />
+  </ItemGroup>
+</Project>
