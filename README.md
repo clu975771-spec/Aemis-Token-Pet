@@ -23,3 +23,5 @@ Windows旧版源码继续保留在 `outputs/AemisTokenPet-Windows`；本次v03�
 ## 资源声明
 
 本项目为《鸣潮》爱弥斯的非官方同人桌宠，角色及相关原始素材权利归各权利人。随包图像与克隆语音用于本项目展示，不代表获得商用授权；无权将这些资源作为自由商用素材再分发。第三方应用和服务不随包分发。项目未为第三方角色素材授予开源许可。
+
+可选皮肤入口可用 `zsh native-startup/build.sh` 本机构建，需要Node.js（带原生WebSocket的Node 22或以上）。输出在native-startup/build，可自行复制到Applications；源码构建不关闭当前Codex。快捷入口不附带Codex本体，调试接口与选择器会受Codex版本影响。

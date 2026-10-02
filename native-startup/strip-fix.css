@@ -1,9 +1,0 @@
-/* Native sidebar paint extends 20 px outside its bounds; it must not cover the wallpaper. */
-.app-shell-left-panel::after{display:none!important}
-[data-app-shell-main-surface]{border-left:0!important;outline:none!important;box-shadow:none!important}
-[data-app-shell-header-layout],[class*="_FloatingHeader_"],[class*="_ApplicationMenuTopBar_"]{background:transparent!important;border-bottom:0!important;box-shadow:none!important}
-[data-app-shell-header-layout]::before,[data-app-shell-header-layout]::after,[class*="_FloatingHeader_"]::after{background:transparent!important;box-shadow:none!important}
-[data-app-shell-header-toolbar]>div{background:transparent!important}
-[data-app-shell-main-content-top-fade]{background:none!important}
-
-[data-app-shell-unified-tab-strip="true"]{background:transparent!important}
