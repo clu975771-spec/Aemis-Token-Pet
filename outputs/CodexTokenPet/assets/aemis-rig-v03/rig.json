@@ -1,0 +1,330 @@
+{
+  "format": "aemis-native-rig",
+  "version": 3,
+  "canvas": [
+    1254,
+    1254
+  ],
+  "approvedSource": "review-v03-ears",
+  "layers": [
+    {
+      "id": "H08",
+      "file": "textures/H08.png",
+      "name": "完整后发底",
+      "enabled": true,
+      "pivot": [
+        620,
+        470
+      ],
+      "amplitude": 0,
+      "phase": 0.0,
+      "sha256": "51f71dd0c8a140087797e48a677c0e8af87c94366f22cb16ccf96db40e28cae7"
+    },
+    {
+      "id": "F03",
+      "file": "textures/F03.png",
+      "name": "角色右耳备用",
+      "enabled": false,
+      "pivot": [
+        627,
+        627
+      ],
+      "amplitude": 0,
+      "phase": 0.73,
+      "sha256": "c27ae1586000c86ef9f7ab3ba8ed11b3206ce3ff0ff541a41b06e7be8b79b4d2"
+    },
+    {
+      "id": "F01",
+      "file": "textures/F01.png",
+      "name": "完整脸底",
+      "enabled": true,
+      "pivot": [
+        627,
+        627
+      ],
+      "amplitude": 0,
+      "phase": 1.46,
+      "sha256": "761cfd1ff45de6c0f6503cfbcc7be442b2e856a4c3352e924c2bfbf468d0625f"
+    },
+    {
+      "id": "F04",
+      "file": "textures/F04.png",
+      "name": "角色左耳",
+      "enabled": true,
+      "pivot": [
+        627,
+        627
+      ],
+      "amplitude": 0,
+      "phase": 2.19,
+      "sha256": "e785d0547fa46424aabca7a98f2c46943178995caeee460a095d65232c2b02a6"
+    },
+    {
+      "id": "B01",
+      "file": "textures/B01.png",
+      "name": "左眉",
+      "enabled": true,
+      "pivot": [
+        627,
+        627
+      ],
+      "amplitude": 0,
+      "phase": 2.92,
+      "sha256": "4cdb3277839e6e9bb1e8a5acf8c3a46a78af73e82127a417684e72e367c8898c"
+    },
+    {
+      "id": "B02",
+      "file": "textures/B02.png",
+      "name": "右眉",
+      "enabled": true,
+      "pivot": [
+        627,
+        627
+      ],
+      "amplitude": 0,
+      "phase": 3.65,
+      "sha256": "6daabdaf69441b6eedff16d58f632b76e191583c7aaa594238fce976a9799aaa"
+    },
+    {
+      "id": "E01",
+      "file": "textures/E01.png",
+      "name": "左睁眼",
+      "enabled": true,
+      "pivot": [
+        627,
+        627
+      ],
+      "amplitude": 0,
+      "phase": 4.38,
+      "sha256": "163e741e68b8fb273d4adb7128791e85aa99c72717c64b5a80b361782c40adcd"
+    },
+    {
+      "id": "E02",
+      "file": "textures/E02.png",
+      "name": "右睁眼",
+      "enabled": true,
+      "pivot": [
+        627,
+        627
+      ],
+      "amplitude": 0,
+      "phase": 5.109999999999999,
+      "sha256": "44d99ea95794d896c93427cfe89cf83430ab9b37b5b25e9765d7c0ecbca979f8"
+    },
+    {
+      "id": "E03",
+      "file": "textures/E03.png",
+      "name": "双眼半闭",
+      "enabled": true,
+      "pivot": [
+        627,
+        627
+      ],
+      "amplitude": 0,
+      "phase": 5.84,
+      "sha256": "5136d046e9d12b8c908b2024c2dd9915452e9854ee2b6489f2a14c32a199a5c3"
+    },
+    {
+      "id": "E04",
+      "file": "textures/E04.png",
+      "name": "双眼全闭",
+      "enabled": true,
+      "pivot": [
+        627,
+        627
+      ],
+      "amplitude": 0,
+      "phase": 6.57,
+      "sha256": "a916c076ac5dbd1c91c30799a89751ed3b13d8ee92ad618eba872dd39f481ef6"
+    },
+    {
+      "id": "M01",
+      "file": "textures/M01.png",
+      "name": "闭嘴",
+      "enabled": true,
+      "pivot": [
+        627,
+        627
+      ],
+      "amplitude": 0,
+      "phase": 7.3,
+      "sha256": "fd098744fbd2720937a4b8e0ced19a596bb6761963d195583b3be45ba5b0703f"
+    },
+    {
+      "id": "M02",
+      "file": "textures/M02.png",
+      "name": "张嘴",
+      "enabled": true,
+      "pivot": [
+        627,
+        627
+      ],
+      "amplitude": 0,
+      "phase": 8.03,
+      "sha256": "b997af610a8b875282c38659ddfcf3c665bd9352d231fbc20eb8148d0c0c7d68"
+    },
+    {
+      "id": "H02",
+      "file": "textures/H02.png",
+      "name": "左外侧发",
+      "enabled": true,
+      "pivot": [
+        300,
+        480
+      ],
+      "amplitude": 2.7,
+      "phase": 8.76,
+      "sha256": "9c0c93cd8e29974cb0a11e18b55dbbb465775bc6d230b59c60a5ad172f50dde4"
+    },
+    {
+      "id": "H03",
+      "file": "textures/H03.png",
+      "name": "左内侧发",
+      "enabled": true,
+      "pivot": [
+        267,
+        520
+      ],
+      "amplitude": 2.4,
+      "phase": 9.49,
+      "sha256": "42355a5165685cb73b79ab6a4bbda0207fe967415d0b02816fb15a1d0d3840e1"
+    },
+    {
+      "id": "H07",
+      "file": "textures/H07.png",
+      "name": "右脸颊卷发",
+      "enabled": true,
+      "pivot": [
+        710,
+        715
+      ],
+      "amplitude": 2.5,
+      "phase": 10.219999999999999,
+      "sha256": "c60cd6400d801171090b49dd4e8fc316548518f0b395ee1441579f8067a78678"
+    },
+    {
+      "id": "H04",
+      "file": "textures/H04.png",
+      "name": "左刘海",
+      "enabled": true,
+      "pivot": [
+        376,
+        486
+      ],
+      "amplitude": 2.0,
+      "phase": 10.95,
+      "sha256": "e4526d11718bb67b902213f33ec51ee8a5706ca8f6b594fa61d0d87efe089d21"
+    },
+    {
+      "id": "H05",
+      "file": "textures/H05.png",
+      "name": "中央刘海",
+      "enabled": true,
+      "pivot": [
+        509,
+        475
+      ],
+      "amplitude": 1.5,
+      "phase": 11.68,
+      "sha256": "9032dfb22db02c800bb6f97612761c6dd9a19896df4810ff0a43258c74a9676d"
+    },
+    {
+      "id": "H06",
+      "file": "textures/H06.png",
+      "name": "右刘海",
+      "enabled": true,
+      "pivot": [
+        627,
+        487
+      ],
+      "amplitude": 2.3,
+      "phase": 12.41,
+      "sha256": "3adebc209087a5b557c94f6052ecfd4d464a6910df9356ce579dadbaa0261b01"
+    },
+    {
+      "id": "H00",
+      "file": "textures/H00.png",
+      "name": "发根衔接",
+      "enabled": true,
+      "pivot": [
+        627,
+        627
+      ],
+      "amplitude": 0,
+      "phase": 13.14,
+      "sha256": "4aa61e83cf6c05962a9b3c46af777758acddfd393df30351d88a16f9fa518855"
+    },
+    {
+      "id": "H01",
+      "file": "textures/H01.png",
+      "name": "呆毛",
+      "enabled": true,
+      "pivot": [
+        493,
+        432
+      ],
+      "amplitude": 7.0,
+      "phase": 13.87,
+      "sha256": "2a3a7124a3c06cf26e650040fb60ac8f918b71af9eab6cbd04f097ed3d05b127"
+    },
+    {
+      "id": "A04",
+      "file": "textures/A04.png",
+      "name": "发箍",
+      "enabled": true,
+      "pivot": [
+        627,
+        627
+      ],
+      "amplitude": 0,
+      "phase": 14.6,
+      "sha256": "43017cf0954023a8c07de6840d3a3e47a8a08b352fca54ea7e6af3bbaeedd825"
+    },
+    {
+      "id": "A01",
+      "file": "textures/A01.png",
+      "name": "星冠",
+      "enabled": true,
+      "pivot": [
+        627,
+        627
+      ],
+      "amplitude": 0,
+      "phase": 15.33,
+      "sha256": "2a5a22ae28e5669e6af044aed21070b3532a751fd8478b07c21b87c3bedbe296"
+    },
+    {
+      "id": "A02",
+      "file": "textures/A02.png",
+      "name": "冰晶",
+      "enabled": true,
+      "pivot": [
+        627,
+        627
+      ],
+      "amplitude": 0,
+      "phase": 16.06,
+      "sha256": "c93c4a58da687400acf7bfd293d4dd0bd44da4234c15362a0ba3d2c436c8c13f"
+    },
+    {
+      "id": "A03",
+      "file": "textures/A03.png",
+      "name": "羽夹",
+      "enabled": true,
+      "pivot": [
+        627,
+        627
+      ],
+      "amplitude": 0,
+      "phase": 16.79,
+      "sha256": "9c93a2b67ff02276a90d165c94c28f25a97b525f0877e8b4edbd39d0891ed7e1"
+    }
+  ],
+  "animationRevision": 4,
+  "rearDeformation": {
+    "type": "spatially-weighted-CoreImage-warp",
+    "maxSourcePixels": 48,
+    "rootFixed": true,
+    "tipPhaseLag": 1.1
+  }
+}

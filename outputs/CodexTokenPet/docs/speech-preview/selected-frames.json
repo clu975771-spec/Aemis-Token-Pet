@@ -1,0 +1,71 @@
+{
+  "complete": {
+    "open": {
+      "file": "frame-00014.png",
+      "db": -2.63047456741333,
+      "time": 0.5398499965667725,
+      "mouth": 0.9595790325561879,
+      "stage": "complete"
+    },
+    "small": {
+      "time": 0.8754650354385376,
+      "db": -6.228277206420898,
+      "file": "frame-00024.png",
+      "stage": "complete",
+      "mouth": 0.13771273577800477
+    },
+    "closed": {
+      "stage": "complete",
+      "time": 0.9088970422744751,
+      "mouth": 0,
+      "file": "frame-00025.png",
+      "db": -6.627242088317871
+    }
+  },
+  "problem": {
+    "open": {
+      "db": -2.017749309539795,
+      "file": "frame-00085.png",
+      "stage": "problem",
+      "time": 0.5712219476699829,
+      "mouth": 0.9597056337978052
+    },
+    "small": {
+      "mouth": 0.18548776323605284,
+      "time": 1.273846983909607,
+      "stage": "problem",
+      "db": -4.974224090576172,
+      "file": "frame-00106.png"
+    },
+    "closed": {
+      "mouth": 0,
+      "time": 1.3041000366210938,
+      "stage": "problem",
+      "file": "frame-00107.png",
+      "db": -6.097572326660156
+    }
+  },
+  "ten-tap": {
+    "open": {
+      "file": "frame-00355.png",
+      "stage": "ten-tap",
+      "mouth": 0.9599994519266204,
+      "db": -1.6147204637527466,
+      "time": 6.808560013771057
+    },
+    "small": {
+      "stage": "ten-tap",
+      "time": 8.308732032775879,
+      "file": "frame-00400.png",
+      "db": -6.2711405754089355,
+      "mouth": 0.07237190365429169
+    },
+    "closed": {
+      "time": 1.475142002105713,
+      "db": -6.132472038269043,
+      "file": "frame-00195.png",
+      "mouth": 0,
+      "stage": "ten-tap"
+    }
+  }
+}

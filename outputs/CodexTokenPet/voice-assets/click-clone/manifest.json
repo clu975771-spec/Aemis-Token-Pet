@@ -1,0 +1,28 @@
+{
+  "clips" : [
+    {
+      "file" : "01.wav",
+      "text" : "嘿，我在这里呢。"
+    },
+    {
+      "file" : "02.wav",
+      "text" : "今天也一起加油吧。"
+    },
+    {
+      "file" : "03.wav",
+      "text" : "别着急，慢慢来就好。"
+    },
+    {
+      "file" : "04.wav",
+      "text" : "有我陪着你呢。"
+    },
+    {
+      "file" : "05.wav",
+      "text" : "要记得休息一下哦。"
+    }
+  ],
+  "playback" : "Bundled WAV; no TTS request during clicks",
+  "provider" : "Pinokio Qwen3-TTS MLX HTTP API",
+  "version" : 1,
+  "voice" : "爱弥斯_桌宠克隆音色_v1"
+}

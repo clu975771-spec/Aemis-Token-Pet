@@ -1,0 +1,1 @@
+(()=>{document.getElementById('aemeath-theme')?.remove();document.getElementById('aemeath-wallpaper').style.opacity='.26';let s=document.createElement('style');s.id='aemeath-footer-fix';s.textContent='.thread-scroll-container .pointer-events-none.bg-gradient-to-t.from-surface{background:none!important}';document.head.append(s);return 'palette-reverted-footer-fix-kept'})()

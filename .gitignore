@@ -1,7 +1,14 @@
-# Build products and local macOS runtime copies
-outputs/AemisTokenPet-Windows/bin/
-outputs/AemisTokenPet-Windows/obj/
-outputs/AemisTokenPet-Windows/dist/
-outputs/CodexTokenPet/CodexTokenPet
 .DS_Store
-
+**/__pycache__/
+**/.venv/
+**/node_modules/
+**/backups/
+**/backup/
+**/build/
+**/bin/
+promo-video/
+*.log
+.env*
+**/CodexTokenPet/CodexTokenPet
+pet/CodexTokenPet
+**/CodexTokenPet.next

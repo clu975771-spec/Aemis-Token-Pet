@@ -1,0 +1,3 @@
+2026-10-01 User-approved faithful official-reference fan art.
+Source: aemeath-official-faithful-preview.png
+Generated using built-in image_gen: preserve official near-view face, proportions, asymmetric costume and pose; create a blue/pink starfield background. Rejected earlier costume variants are not used.

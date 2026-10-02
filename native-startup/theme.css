@@ -1,0 +1,238 @@
+/* Neutral charcoal glass. Character art retains its original colors. */
+:root,#root{
+ --color-surface:#181818!important;
+ --color-surface-secondary:#292929!important;
+ --color-surface-tertiary:#181818!important;
+ --color-surface-elevated:#323232!important;
+ --color-surface-elevated-secondary:#2d2d2d!important;
+ --color-text:#eeeeee!important;
+ --color-text-secondary:#b8b8b8!important;
+ --color-text-tertiary:#929292!important;
+ --color-text-disabled:#747474!important;
+ --color-text-user-message:#eeeeee!important;
+ --color-codex-description:#b8b8b8!important;
+ --color-border:rgba(210,210,210,.17)!important;
+ --color-border-subtle:rgba(210,210,210,.10)!important;
+ --color-border-strong:rgba(210,210,210,.30)!important;
+ --color-background-primary-soft:#3a3a3a!important;
+ --color-background-primary-soft-alpha:rgba(80,80,80,.38)!important;
+ --color-background-primary-ghost-hover:rgba(190,190,190,.12)!important;
+ --color-background-primary-ghost-active:rgba(190,190,190,.20)!important;
+ --color-background-primary-solid:#e1e1e1!important;
+ --color-background-primary-solid-hover:#ffffff!important;
+ --color-text-primary-solid:#181818!important;
+ --color-background-secondary-soft-alpha:rgba(85,85,85,.22)!important;
+ --color-background-text-selection:rgba(215,215,215,.25)!important;
+ --color-ring:#e1e1e1!important;
+ --color-text-primary-ghost:#dedede!important;
+ --color-text-primary-outline:#e1e1e1!important;
+}
+html,body{background:#181818!important;color:#eeeeee!important}
+.app-shell-left-panel{background:rgba(30,30,30,.74)!important}
+[class*="_ComposerLayoutRoot_"]{--composer-layout-surface-background:rgba(43,43,43,.78)!important;--composer-layout-surface-shadow:0 6px 26px rgba(0,0,0,.14)!important}
+/* The stock footer gradient occupies a shifted scroll child, creating the hard bottom-right step. */
+.thread-scroll-container .pointer-events-none.bg-gradient-to-t.from-surface{background:none!important}
+[data-thread-scroll-footer="true"]{background:transparent!important}
+[role="dialog"],[role="menu"],[data-radix-popper-content-wrapper]>div{--color-surface: #2d2d2d!important}
+
+.app-shell-left-panel{backdrop-filter:blur(18px)!important}
+[class*="_ComposerLayoutRoot_"]{--composer-layout-surface-backdrop-filter:blur(22px)!important;border:1px solid rgba(255,255,255,.08);border-radius:24px}
+[data-radix-popper-content-wrapper]>div,[role="menu"],[role="dialog"]{backdrop-filter:blur(20px)}
+/* Glass surfaces: restrained refraction-like blur, directional highlights, soft inset edges. */
+.app-shell-left-panel{
+ background:linear-gradient(135deg,rgba(255,255,255,.035),rgba(255,255,255,.01) 35%,rgba(0,0,0,.10)),rgba(18,18,18,.28)!important;
+ backdrop-filter:blur(28px) saturate(115%)!important;
+ box-shadow:inset -1px 0 rgba(255,255,255,.10),inset 0 1px rgba(255,255,255,.055)!important;
+}
+[class*="_ComposerLayoutRoot_"]{
+ --composer-layout-surface-background:rgba(22,22,22,.34)!important;
+ background-image:linear-gradient(145deg,rgba(255,255,255,.035),rgba(255,255,255,.015) 42%,rgba(0,0,0,.08))!important;
+ --composer-layout-surface-backdrop-filter:blur(28px) saturate(120%)!important;
+ --composer-layout-surface-shadow:inset 0 1px rgba(255,255,255,.12),inset 1px 0 rgba(255,255,255,.06),0 8px 28px rgba(0,0,0,.18)!important;
+ border:1px solid rgba(255,255,255,.12)!important;
+}
+/* Clear glass revision: less frost, visible background, convex edge reflections. */
+.app-shell-left-panel{
+ background:linear-gradient(112deg,rgba(255,255,255,.10),rgba(255,255,255,.015) 9%,transparent 45%,rgba(255,255,255,.025)),rgba(15,15,15,.12)!important;
+ backdrop-filter:url(#aemeath-glass-refraction) blur(10px) saturate(135%)!important;
+ box-shadow:inset -1px 0 rgba(255,255,255,.24),inset -3px 0 6px rgba(255,255,255,.025),inset 0 1px rgba(255,255,255,.16)!important;
+}
+[class*="_ComposerLayoutRoot_"]{
+ --composer-layout-surface-background:rgba(18,18,18,.18)!important;
+ --composer-layout-surface-backdrop-filter:url(#aemeath-glass-refraction) blur(10px) saturate(135%)!important;
+ --composer-layout-surface-shadow:inset 0 1px 1px rgba(255,255,255,.38),inset 1px 0 1px rgba(255,255,255,.16),inset 0 -1px 1px rgba(255,255,255,.11),0 12px 34px rgba(0,0,0,.20)!important;
+ background-image:linear-gradient(125deg,rgba(255,255,255,.10),transparent 20%,transparent 72%,rgba(255,255,255,.045))!important;
+ border:1px solid rgba(255,255,255,.19)!important;
+ border-radius:26px!important;
+}
+
+/* Codex's September shell uses a separate icon rail and can replace the old
+   app-shell surfaces. These classes are attached by geometry, not build hashes. */
+#root.aemeath-shell-stage,
+#root .aemeath-shell-stage,
+#root .aemeath-main,
+#root main.main-surface,
+#root [data-app-shell-main-surface]{
+  background-color:transparent!important;
+  background-image:none!important;
+}
+#root .aemeath-icon-rail{
+  background:rgba(16,15,21,.28)!important;
+  border-right:1px solid rgba(255,255,255,.09)!important;
+  backdrop-filter:blur(12px) saturate(115%)!important;
+  -webkit-backdrop-filter:blur(12px) saturate(115%)!important;
+}
+#root .aemeath-sidebar,
+#root aside.app-shell-left-panel,
+#root [data-app-shell-focus-area="left-panel"]{
+  background:linear-gradient(115deg,rgba(255,255,255,.085),transparent 17%,rgba(8,8,12,.07)),rgba(16,15,21,.33)!important;
+  border-right:1px solid rgba(255,255,255,.13)!important;
+  box-shadow:inset 1px 0 rgba(255,255,255,.09),inset -1px 0 rgba(255,255,255,.08)!important;
+  backdrop-filter:blur(16px) saturate(120%)!important;
+  -webkit-backdrop-filter:blur(16px) saturate(120%)!important;
+}
+#root .aemeath-main [role="main"],
+#root .aemeath-main .thread-scroll-container{
+  background:transparent!important;
+}
+#root .aemeath-main :is(article,[data-message-author-role]){
+  border-radius:16px;
+  background:rgba(25,24,30,.32);
+  backdrop-filter:blur(8px) saturate(108%);
+  -webkit-backdrop-filter:blur(8px) saturate(108%);
+}
+#root .aemeath-main :is(.composer-surface-chrome,[class*="_ComposerLayoutRoot_"]){
+  background:linear-gradient(145deg,rgba(255,255,255,.09),transparent 28%),rgba(25,24,30,.48)!important;
+  border:1px solid rgba(255,255,255,.17)!important;
+  border-radius:24px!important;
+  box-shadow:inset 0 1px rgba(255,255,255,.14),0 12px 30px rgba(0,0,0,.19)!important;
+  backdrop-filter:blur(18px) saturate(115%)!important;
+  -webkit-backdrop-filter:blur(18px) saturate(115%)!important;
+}
+#root :is(button,a){
+  transition:background-color .18s cubic-bezier(.22,1,.36,1),color .18s cubic-bezier(.22,1,.36,1),border-color .18s cubic-bezier(.22,1,.36,1)!important;
+}
+
+#aemeath-quota{
+  position:fixed;z-index:1000;width:52px;height:46px;
+  color:#f4e8f1;pointer-events:none;user-select:none;text-align:center;
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;
+  animation:aemeath-quota-enter .38s cubic-bezier(.22,1,.36,1) both;
+}
+#aemeath-quota[hidden]{display:none}
+#aemeath-quota svg{display:block;width:52px;height:31px;overflow:visible}
+#aemeath-quota path{fill:none;stroke-width:4.5;stroke-linecap:round}
+#aemeath-quota .track{stroke:rgba(244,220,232,.28)}
+#aemeath-quota .fill{
+  stroke:#edb6d7;stroke-dasharray:100;
+  stroke-dashoffset:var(--quota-offset,100);
+  filter:drop-shadow(0 0 3px rgba(237,182,215,.4));
+  transition:stroke-dashoffset .65s cubic-bezier(.22,1,.36,1);
+}
+#aemeath-quota .value{
+  position:absolute;top:15px;left:0;width:100%;font-size:11px;line-height:1;
+  font-weight:750;font-variant-numeric:tabular-nums;
+}
+#aemeath-quota .label{display:block;margin-top:-1px;color:rgba(244,220,232,.72);font-size:9px;line-height:1;letter-spacing:.08em}
+#aemeath-quota[data-available="false"] .fill{opacity:.35}
+@keyframes aemeath-quota-enter{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){
+ #root :is(button,a),#aemeath-quota .fill{transition:none!important}
+ #aemeath-quota{animation:none}
+}
+
+/* Match the quota arc's outer radius to the actual account avatar. */
+#aemeath-quota{width:var(--quota-size,24px);height:30px}
+#aemeath-quota svg{width:100%;height:auto}
+#aemeath-quota path{stroke-width:2.5}
+#aemeath-quota .value{top:calc(var(--quota-size,24px) * .36);font-size:8px;font-weight:650}
+#aemeath-quota .label{margin-top:2px;font-size:7px;letter-spacing:0}
+/* One glass layer across navigation; clear the nested native dark paint. */
+#root aside.app-shell-left-panel{
+ background:linear-gradient(125deg,rgba(255,255,255,.10),transparent 20%,transparent 72%,rgba(255,255,255,.045)),rgba(18,18,18,.18)!important;
+ backdrop-filter:blur(10px) saturate(135%)!important;
+ -webkit-backdrop-filter:blur(10px) saturate(135%)!important;
+ box-shadow:inset -1px 0 rgba(255,255,255,.16)!important;
+ border-right:0!important;
+}
+#root aside.app-shell-left-panel :is([data-slate-sidebar-content],.sidebar-navigation,nav.aemeath-sidebar,[data-app-navigation-rail]){
+ background:transparent!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;
+ box-shadow:none!important;border-right:0!important;
+}
+/* The page surface's outline creates the horizontal seam under the titlebar. */
+#root [class*="_PageSurface_"]{box-shadow:none!important;border-top:0!important;outline:none!important}
+
+/* Remove the actual native top fade overlay, whose opaque start makes a seam. */
+#root [class*="_MainContentTopFade_"]{display:none!important;background:none!important}
+/* Center the number in the arc cavity, leaving clear space above the label. */
+#aemeath-quota .value{top:6px;height:10px;line-height:10px;font-size:8px;display:flex;align-items:center;justify-content:center}
+#aemeath-quota .label{margin-top:4px}
+
+/* Clear composer glass: diffuse the backdrop without an opaque dark fill. */
+#root [data-codex-composer-root] [class*="_ComposerLayoutRoot_"]{
+ --composer-layout-surface-background:rgba(200,218,239,.07)!important;
+ --composer-layout-surface-backdrop-filter:blur(8px) saturate(130%)!important;
+ --composer-layout-surface-shadow:inset 0 1px rgba(255,255,255,.38),inset 0 -1px rgba(185,217,255,.16),0 8px 28px rgba(0,0,0,.10)!important;
+ background:linear-gradient(125deg,rgba(255,255,255,.12),rgba(255,255,255,.025) 40%,rgba(180,214,255,.07)),rgba(200,218,239,.07)!important;
+ backdrop-filter:blur(8px) saturate(130%)!important;
+ -webkit-backdrop-filter:blur(8px) saturate(130%)!important;
+ border:1px solid rgba(235,245,255,.26)!important;
+ box-shadow:inset 0 1px rgba(255,255,255,.38),inset 0 -1px rgba(185,217,255,.16),0 8px 28px rgba(0,0,0,.10)!important;
+}
+#root [data-app-shell-main-surface],#root [class*="_WorkspaceContent_"]{isolation:auto!important}
+/* Native clip-path creates a backdrop root that prevents sampling the wallpaper. */
+#root [data-app-shell-main-surface]{clip-path:none!important}
+
+/* Right-hand file preview only. Glass belongs behind media, never on pixels. */
+#root [data-app-shell-pane-frame]:has([data-app-shell-tab-panel-controller="right"][data-tab-id^="file:"]){
+ background:linear-gradient(135deg,rgba(215,235,255,.07),rgba(245,207,235,.035)),rgba(16,23,38,.12)!important;
+ backdrop-filter:blur(8px) saturate(130%)!important;
+ -webkit-backdrop-filter:blur(8px) saturate(130%)!important;
+ border-left:1px solid rgba(225,239,255,.18)!important;
+ box-shadow:inset 1px 0 rgba(255,255,255,.07)!important;
+}
+#root [data-app-shell-compact-page-gutter]:has(>[data-app-shell-tab-panel-controller="right"][data-tab-id^="file:"]){
+ --app-shell-panel-background:transparent!important;
+ background:transparent!important;
+}
+#root [data-app-shell-tab-panel-controller="right"][data-tab-id^="file:"] [class*="_player_"]{
+ background:transparent!important;
+}
+#root [data-app-shell-tab-panel-controller="right"][data-tab-id^="file:"] video{
+ background:transparent!important;opacity:1!important;filter:none!important;
+}
+#root [data-app-shell-tab-panel-controller="right"][data-tab-id^="file:"] [class*="video-controls"].shrink-0{
+ background:rgba(18,25,40,.30)!important;
+ border-top-color:rgba(226,239,255,.16)!important;
+ color:rgba(247,250,255,.94)!important;
+}
+#root [data-app-shell-tab-panel-controller="right"][data-tab-id^="file:"] [data-testid="viewer-header"]{
+ background:linear-gradient(rgba(18,25,40,.18),transparent)!important;
+}
+
+/* Exit snapshot is inert and contains frozen media, never a live player. */
+.aemeath-preview-exit{
+ background:linear-gradient(135deg,rgba(215,235,255,.07),rgba(245,207,235,.035)),rgba(16,23,38,.12);
+ backdrop-filter:blur(8px) saturate(130%);
+ border-left:1px solid rgba(225,239,255,.18);
+}
+@media (prefers-reduced-motion:no-preference){
+ [role="menu"][data-state="open"],[role="dialog"][data-state="open"]{animation:aemeath-float-in 1100ms cubic-bezier(.42,0,.25,1)}
+ [role="dialog"][data-state="closed"]{animation:aemeath-float-out 800ms ease-in}
+}
+@keyframes aemeath-float-in{from{opacity:0;translate:0 14px}to{opacity:1;translate:0 0}}
+@keyframes aemeath-float-out{from{opacity:1;translate:0 0}to{opacity:0;translate:0 3px}}
+
+/* Project / host / worktree rail above the composer uses its matching glass. */
+#root [data-codex-composer-root] [data-composer-rail][data-composer-rail-placement="above"]:has([data-composer-utility-bar-scroll-area]){
+ background:linear-gradient(125deg,rgba(255,255,255,.12),rgba(255,255,255,.025) 40%,rgba(180,214,255,.07)),rgba(200,218,239,.07)!important;
+ backdrop-filter:blur(8px) saturate(130%)!important;
+ -webkit-backdrop-filter:blur(8px) saturate(130%)!important;
+ border:1px solid rgba(235,245,255,.26)!important;
+ border-radius:26px!important;
+ box-shadow:inset 0 1px rgba(255,255,255,.38),inset 0 -1px rgba(185,217,255,.16),0 8px 28px rgba(0,0,0,.10)!important;
+ margin-bottom:6px;
+}
+#root [data-codex-composer-root] [data-composer-rail][data-composer-rail-placement="above"]:has([data-composer-utility-bar-scroll-area]) [data-composer-rail-item]{
+ background:transparent!important;
+}

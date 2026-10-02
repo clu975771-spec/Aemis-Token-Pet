@@ -1,0 +1,9 @@
+{
+  "text": "爱弥斯，在网上就是爹。",
+  "voice": "爱弥斯_桌宠克隆音色_v1",
+  "provider": "Pinokio Qwen3-TTS MLX HTTP API",
+  "duration_seconds": 3.76,
+  "asr_result": "艾迷斯在网上就是爹",
+  "sha256": "56d16a054ac2b481f29b135efdbc560e595c0af8cef0d1756788091d09665dc9",
+  "playback": "Bundled WAV, no generation or TTS network calls at startup"
+}
